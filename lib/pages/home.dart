@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        backgroundColor: Color(0xff071D31),
+        backgroundColor: const Color(0xff071D31),
         elevation: 0,
         title: Center(
           child: Text(
@@ -81,9 +81,9 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Color(0xff071D31),
+        backgroundColor: const Color(0xff071D31),
         onPressed: buatTugasBaru,
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
       ),
       body: ListView.builder(
         itemCount: db.toDoList.length,

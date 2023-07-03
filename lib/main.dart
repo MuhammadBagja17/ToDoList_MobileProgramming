@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:noteday/pages/startpage.dart';
+import 'package:noteday/pages/splashscreen.dart';
 
 void main() async {
   await Hive.initFlutter();
@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primaryColor: Color(0xff071D31),
+          primaryColor: const Color(0xff071D31),
         ),
-        home: const startPage());
+        home: const SplashScreen());
   }
 }

@@ -22,7 +22,7 @@ class _MainMenuState extends State<MainMenu> {
 
   final List<Widget> _pages = [
     const HomePage(),
-    const Calendar(),
+    const CalendarPage(),
     const Account()
   ];
 
@@ -46,7 +46,7 @@ class _MainMenuState extends State<MainMenu> {
             padding: const EdgeInsets.all(20),
             tabs: const [
               GButton(
-                icon: Icons.home,
+                icon: Icons.assignment_add,
                 text: "Home",
               ),
               GButton(

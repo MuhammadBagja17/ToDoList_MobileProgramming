@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:noteday/pages/loginpage.dart';
+import 'package:noteday/pages/signup.dart';
 
-class startPage extends StatelessWidget {
-  const startPage({super.key});
+class StartPage extends StatelessWidget {
+  const StartPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -85,7 +86,7 @@ class startPage extends StatelessWidget {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => const LoginPage()));
+                                    builder: (context) => const SignupPage()));
                           },
                           child: Container(
                             width: 130,
