@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "997404346386",
+    "project_id": "noteday-38b64",
+    "storage_bucket": "noteday-38b64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997404346386:android:4231d391ff026b1f8770cb",
+        "android_client_info": {
+          "package_name": "com.example.noteday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997404346386-lmdtmq4185hv4c09mr15nrl6nr79mjre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGLFHruVrdZdIVye4lbIO6JGP3uyfxtak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997404346386-lmdtmq4185hv4c09mr15nrl6nr79mjre.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

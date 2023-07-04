@@ -3,9 +3,14 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:noteday/pages/loginpage.dart';
 import 'package:noteday/pages/signup.dart';
 
-class StartPage extends StatelessWidget {
+class StartPage extends StatefulWidget {
   const StartPage({super.key});
 
+  @override
+  State<StartPage> createState() => _StartPageState();
+}
+
+class _StartPageState extends State<StartPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

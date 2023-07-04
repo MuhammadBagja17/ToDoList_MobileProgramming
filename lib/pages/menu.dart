@@ -42,7 +42,7 @@ class _MainMenuState extends State<MainMenu> {
             activeColor: Colors.white,
             gap: 10,
             iconSize: 32,
-            tabBackgroundColor: Color(0xff071D31).withOpacity(0.2),
+            tabBackgroundColor: const Color(0xff071D31).withOpacity(0.2),
             padding: const EdgeInsets.all(20),
             tabs: const [
               GButton(

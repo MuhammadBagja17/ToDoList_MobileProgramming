@@ -61,12 +61,12 @@ class _AccountState extends State<Account> {
               ],
             ),
           ),
-          SizedBox(height: 10),
+          const SizedBox(height: 10),
           Container(
-            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 4),
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 4),
             height: 30,
             width: double.infinity,
-            decoration: BoxDecoration(color: Color(0xffE4E4E4)),
+            decoration: const BoxDecoration(color: Color(0xffE4E4E4)),
             child: Text('Pengaturan',
                 style: GoogleFonts.roboto(
                   fontSize: 18,
@@ -74,7 +74,7 @@ class _AccountState extends State<Account> {
                 )),
           ),
           Container(
-            margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+            margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -83,13 +83,13 @@ class _AccountState extends State<Account> {
                       fontSize: 18,
                       fontWeight: FontWeight.w500,
                     )),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 Text('Zona Waktu',
                     style: GoogleFonts.roboto(
                       fontSize: 18,
                       fontWeight: FontWeight.w500,
                     )),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 Text('Notifikasi',
                     style: GoogleFonts.roboto(
                       fontSize: 18,
@@ -99,10 +99,10 @@ class _AccountState extends State<Account> {
             ),
           ),
           Container(
-            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 4),
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 4),
             height: 30,
             width: double.infinity,
-            decoration: BoxDecoration(color: Color(0xffE4E4E4)),
+            decoration: const BoxDecoration(color: Color(0xffE4E4E4)),
             child: Text('About us',
                 style: GoogleFonts.roboto(
                   fontSize: 18,
@@ -110,7 +110,7 @@ class _AccountState extends State<Account> {
                 )),
           ),
           Container(
-            margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+            margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -119,13 +119,13 @@ class _AccountState extends State<Account> {
                       fontSize: 18,
                       fontWeight: FontWeight.w500,
                     )),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 Text('Kebijakan Privasi',
                     style: GoogleFonts.roboto(
                       fontSize: 18,
                       fontWeight: FontWeight.w500,
                     )),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 Text('Versi',
                     style: GoogleFonts.roboto(
                       fontSize: 18,
